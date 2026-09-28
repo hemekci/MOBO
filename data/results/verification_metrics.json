@@ -1,0 +1,80 @@
+{
+  "A_Houston": {
+    "n_winners": 258,
+    "wall_clock_s": 0.29457592964172363,
+    "thermal_path_a_vs_path_b_eui": {
+      "spearman": 0.6472096439656277,
+      "pearson": 0.6618657382908786,
+      "nrmse_zscore": 0.8223554726626697
+    },
+    "daylight_path_a_vs_path_b_sda": {
+      "spearman": 0.9517989819071198,
+      "pearson": 0.9513313912627801,
+      "nrmse_zscore": 0.31198913037867154
+    },
+    "structural_path_a_vs_path_b_util": {
+      "spearman": 0.9998981457925368,
+      "pearson": 0.9998254347774614,
+      "nrmse_zscore": 0.01868503264853083
+    },
+    "path_b_means": {
+      "heating_eui": 21.39462712235793,
+      "cooling_eui": 414.2685607995833,
+      "total_eui": 435.6631879219412,
+      "sda_pct": 18.26012058570198,
+      "utilization": 0.32088186452165013
+    }
+  },
+  "B_NYC": {
+    "n_winners": 259,
+    "wall_clock_s": 0.2847459316253662,
+    "thermal_path_a_vs_path_b_eui": {
+      "spearman": 0.6495686824726745,
+      "pearson": 0.6852829763809951,
+      "nrmse_zscore": 0.7933687964862304
+    },
+    "daylight_path_a_vs_path_b_sda": {
+      "spearman": 0.945578053909387,
+      "pearson": 0.9323655160250388,
+      "nrmse_zscore": 0.36778929830804263
+    },
+    "structural_path_a_vs_path_b_util": {
+      "spearman": 0.9998817087514584,
+      "pearson": 0.9998871034296031,
+      "nrmse_zscore": 0.015026414768454238
+    },
+    "path_b_means": {
+      "heating_eui": 69.56984920137575,
+      "cooling_eui": 307.2792970783189,
+      "total_eui": 376.8491462796946,
+      "sda_pct": 14.821964821964821,
+      "utilization": 0.2623468514401831
+    }
+  },
+  "C_Minneapolis": {
+    "n_winners": 272,
+    "wall_clock_s": 0.2948000431060791,
+    "thermal_path_a_vs_path_b_eui": {
+      "spearman": 0.7125120476841375,
+      "pearson": 0.7390635153017373,
+      "nrmse_zscore": 0.7224077584000086
+    },
+    "daylight_path_a_vs_path_b_sda": {
+      "spearman": 0.9413586053695058,
+      "pearson": 0.9326754596662943,
+      "nrmse_zscore": 0.366945609957949
+    },
+    "structural_path_a_vs_path_b_util": {
+      "spearman": 0.9999056274242292,
+      "pearson": 0.9998742169167709,
+      "nrmse_zscore": 0.01586083750809855
+    },
+    "path_b_means": {
+      "heating_eui": 114.9046696747047,
+      "cooling_eui": 313.55721003099217,
+      "total_eui": 428.46187970569684,
+      "sda_pct": 13.848039215686276,
+      "utilization": 0.2794233665332784
+    }
+  }
+}

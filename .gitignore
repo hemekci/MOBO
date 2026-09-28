@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# Radiance sky matrices are regenerated automatically on first Path-C run
+data/raw/sky_cache/

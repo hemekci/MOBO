@@ -1,0 +1,12 @@
+{
+  "case": "C_Minneapolis",
+  "city": "Minneapolis",
+  "front_size": 272,
+  "n_evaluated": 272,
+  "n_success": 272,
+  "n_eplus_fail": 0,
+  "n_radiance_fail": 0,
+  "wall_clock_s": 744.9938180446625,
+  "mean_eval_s": 13.586988635799464,
+  "model": "Path-C v2 (DOE RefBldg Small Office + 4-orientation Radiance)"
+}

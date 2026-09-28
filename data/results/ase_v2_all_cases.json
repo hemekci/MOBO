@@ -1,0 +1,99 @@
+{
+  "wall_clock_s": 199.0676748752594,
+  "n_designs": 60,
+  "per_case": {
+    "A_Houston": {
+      "n": 20,
+      "n_success": 20,
+      "sda_v2": {
+        "n_distinct": 2,
+        "min": 84.0,
+        "max": 100.0,
+        "std": 4.92469609000874,
+        "pct_at_100": 90.0
+      },
+      "ase": {
+        "n_distinct": 7,
+        "min": 28.000000000000004,
+        "max": 100.0,
+        "std": 28.208994459587757,
+        "pct_over_lm83_10pct": 100.0
+      },
+      "exceed_hours": {
+        "min": 169.28,
+        "max": 911.64,
+        "std": 262.90427526703365
+      },
+      "spearman": {
+        "wwr_vs_sda_v2": 0.5202659817144719,
+        "wwr_vs_ase": 0.9083318943387477,
+        "wwr_vs_exceed_hours": 0.9729323308270676,
+        "overhang_vs_exceed_hours": -0.45204967469112545,
+        "path_a_sda_vs_sda_v2": 0.5202659817144719,
+        "path_a_sda_vs_ase": 0.839494895377536
+      }
+    },
+    "B_NYC": {
+      "n": 20,
+      "n_success": 20,
+      "sda_v2": {
+        "n_distinct": 3,
+        "min": 84.0,
+        "max": 100.0,
+        "std": 3.9148838794367427,
+        "pct_at_100": 90.0
+      },
+      "ase": {
+        "n_distinct": 8,
+        "min": 28.000000000000004,
+        "max": 100.0,
+        "std": 22.711925918938896,
+        "pct_over_lm83_10pct": 100.0
+      },
+      "exceed_hours": {
+        "min": 183.24,
+        "max": 986.12,
+        "std": 265.2255897076854
+      },
+      "spearman": {
+        "wwr_vs_sda_v2": 0.5209880722517277,
+        "wwr_vs_ase": 0.7878727762798556,
+        "wwr_vs_exceed_hours": 0.9037593984962405,
+        "overhang_vs_exceed_hours": -0.7486834324091498,
+        "path_a_sda_vs_sda_v2": 0.5209880722517277,
+        "path_a_sda_vs_ase": 0.6906728249434242
+      }
+    },
+    "C_Minneapolis": {
+      "n": 20,
+      "n_success": 20,
+      "sda_v2": {
+        "n_distinct": 2,
+        "min": 84.0,
+        "max": 100.0,
+        "std": 3.577708763999663,
+        "pct_at_100": 95.0
+      },
+      "ase": {
+        "n_distinct": 11,
+        "min": 28.000000000000004,
+        "max": 100.0,
+        "std": 22.003827418261388,
+        "pct_over_lm83_10pct": 100.0
+      },
+      "exceed_hours": {
+        "min": 209.52,
+        "max": 1055.76,
+        "std": 264.513365170239
+      },
+      "spearman": {
+        "wwr_vs_sda_v2": 0.37796447300922725,
+        "wwr_vs_ase": 0.834858942763452,
+        "wwr_vs_exceed_hours": 0.9353383458646616,
+        "overhang_vs_exceed_hours": -0.32117339616158164,
+        "path_a_sda_vs_sda_v2": 0.37796447300922725,
+        "path_a_sda_vs_ase": 0.7912875533927592
+      }
+    }
+  }
+}

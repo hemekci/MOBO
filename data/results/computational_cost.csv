@@ -1,0 +1,4 @@
+case,full_sim_calls,surrogate_sim_calls,full_time_hours,surrogate_time_hours,speedup
+A_Houston,60000,338,0.84,0.0047,177.5
+B_NYC,60000,351,0.78,0.0046,170.9
+C_Minneapolis,60000,364,0.76,0.0046,164.8

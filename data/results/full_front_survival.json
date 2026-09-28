@@ -1,0 +1,22 @@
+{
+  "A_Houston": {
+    "front": 258,
+    "path_c_nd": 42,
+    "survival_pct": 16.3
+  },
+  "B_NYC": {
+    "front": 259,
+    "path_c_nd": 95,
+    "survival_pct": 36.7
+  },
+  "C_Minneapolis": {
+    "front": 272,
+    "path_c_nd": 99,
+    "survival_pct": 36.4
+  },
+  "total": {
+    "front": 789,
+    "path_c_nd": 236,
+    "survival_pct": 29.9
+  }
+}

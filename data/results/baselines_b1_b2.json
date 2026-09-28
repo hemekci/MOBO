@@ -1,0 +1,191 @@
+{
+  "A_Houston": {
+    "b1_as_practised": {
+      "design": {
+        "wwr_n": 0.55,
+        "wwr_s": 0.55,
+        "wwr_e": 0.55,
+        "wwr_w": 0.55,
+        "insulation_m": 0.1,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.067,
+        "framing_idx": 1.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.5956621712179595,
+        "structural_reserve": -0.9083147694363995,
+        "utilization": 1.9083147694363995,
+        "sda_pct": 58.98749999999999,
+        "cost_usd_m2": 709.5434399999999
+      }
+    },
+    "b2_code_compliant": {
+      "design": {
+        "wwr_n": 0.55,
+        "wwr_s": 0.55,
+        "wwr_e": 0.55,
+        "wwr_w": 0.55,
+        "insulation_m": 0.1,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.09649367088607595,
+        "framing_idx": 1.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.5956621712179595,
+        "structural_reserve": 0.07997006124353978,
+        "utilization": 0.9200299387564602,
+        "sda_pct": 58.98749999999999,
+        "cost_usd_m2": 720.8194602531645
+      }
+    },
+    "best_compromise_metrics": {
+      "u_eff_w_m2k": 0.5794603239433613,
+      "structural_reserve": 0.8901733119271491,
+      "utilization": 0.10982668807285086,
+      "sda_pct": 68.31312610467286,
+      "cost_usd_m2": 832.9378253083119
+    },
+    "delta_bc_vs_b1": {
+      "u_eff_pct": -2.7199725041242795,
+      "reserve_pp": 1.7984880813635487,
+      "sda_pp": 9.325626104672871,
+      "cost_pct": 17.390673826582347
+    },
+    "delta_bc_vs_b2": {
+      "u_eff_pct": -2.7199725041242795,
+      "reserve_pp": 0.8102032506836093,
+      "sda_pp": 9.325626104672871,
+      "cost_pct": 15.554292196241404
+    }
+  },
+  "B_NYC": {
+    "b1_as_practised": {
+      "design": {
+        "wwr_n": 0.4,
+        "wwr_s": 0.4,
+        "wwr_e": 0.4,
+        "wwr_w": 0.4,
+        "insulation_m": 0.12,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.08,
+        "framing_idx": 1.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.4863624623331899,
+        "structural_reserve": 0.13178124999999985,
+        "utilization": 0.8682187500000002,
+        "sda_pct": 39.04999999999999,
+        "cost_usd_m2": 663.2543999999999
+      }
+    },
+    "b2_code_compliant": {
+      "design": {
+        "wwr_n": 0.4,
+        "wwr_s": 0.4,
+        "wwr_e": 0.4,
+        "wwr_w": 0.4,
+        "insulation_m": 0.12,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.08,
+        "framing_idx": 1.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.4863624623331899,
+        "structural_reserve": 0.13178124999999985,
+        "utilization": 0.8682187500000002,
+        "sda_pct": 39.04999999999999,
+        "cost_usd_m2": 663.2543999999999
+      }
+    },
+    "best_compromise_metrics": {
+      "u_eff_w_m2k": 0.5665195615881505,
+      "structural_reserve": 0.8295036607309505,
+      "utilization": 0.17049633926904945,
+      "sda_pct": 60.90981741470438,
+      "cost_usd_m2": 794.5660578530827
+    },
+    "delta_bc_vs_b1": {
+      "u_eff_pct": 16.48093869548013,
+      "reserve_pp": 0.6977224107309506,
+      "sda_pp": 21.859817414704388,
+      "cost_pct": 19.798083186946492
+    },
+    "delta_bc_vs_b2": {
+      "u_eff_pct": 16.48093869548013,
+      "reserve_pp": 0.6977224107309506,
+      "sda_pp": 21.859817414704388,
+      "cost_pct": 19.798083186946492
+    }
+  },
+  "C_Minneapolis": {
+    "b1_as_practised": {
+      "design": {
+        "wwr_n": 0.2,
+        "wwr_s": 0.25,
+        "wwr_e": 0.2,
+        "wwr_w": 0.2,
+        "insulation_m": 0.2,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.14,
+        "framing_idx": 2.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.3026735003190811,
+        "structural_reserve": -0.34662499999999996,
+        "utilization": 1.346625,
+        "sda_pct": 19.598138297872342,
+        "cost_usd_m2": 593.2646666666667
+      }
+    },
+    "b2_code_compliant": {
+      "design": {
+        "wwr_n": 0.2,
+        "wwr_s": 0.25,
+        "wwr_e": 0.2,
+        "wwr_w": 0.2,
+        "insulation_m": 0.2,
+        "glazing_idx": 1.0,
+        "member_depth_m": 0.16835443037974684,
+        "framing_idx": 2.0,
+        "overhang": 0.0,
+        "panel_t": 0.006
+      },
+      "metrics": {
+        "u_eff_w_m2k": 0.3026735003190811,
+        "structural_reserve": 0.06877710526315783,
+        "utilization": 0.9312228947368422,
+        "sda_pct": 19.598138297872342,
+        "cost_usd_m2": 594.7981687763713
+      }
+    },
+    "best_compromise_metrics": {
+      "u_eff_w_m2k": 0.5669335054216507,
+      "structural_reserve": 0.818756735190063,
+      "utilization": 0.18124326480993705,
+      "sda_pct": 58.236013943246576,
+      "cost_usd_m2": 787.9949338565704
+    },
+    "delta_bc_vs_b1": {
+      "u_eff_pct": 87.30860310664275,
+      "reserve_pp": 1.165381735190063,
+      "sda_pp": 38.63787564537424,
+      "cost_pct": 32.82350662884082
+    },
+    "delta_bc_vs_b2": {
+      "u_eff_pct": 87.30860310664275,
+      "reserve_pp": 0.7499796299269051,
+      "sda_pp": 38.63787564537424,
+      "cost_pct": 32.48106252203948
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[project]
+name = "mobo-envelope"
+version = "0.1.0"
+description = "Multi-objective evolutionary optimization for building envelope design"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "pymoo>=0.6.1",
+    "matplotlib>=3.9",
+    "tqdm>=4.66",
+    "SALib>=1.5",
+    "openseespy>=3.7.0.3",
+    "pvlib>=0.15.1",
+    "eppy>=0.5.69",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mobo_envelope"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]

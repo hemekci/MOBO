@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "MOBO-Envelope"
+authors:
+  - family-names: Emekci
+    given-names: Seyda
+    affiliation: "Ankara Yildirim Beyazit University"
+  - family-names: Abbas
+    given-names: Ali
+    affiliation: "University of East London"
+  - family-names: Emekci
+    given-names: Hakan
+    affiliation: "Hacettepe University"
+license: MIT
+repository-code: "https://github.com/hemekci/MOBO"
+preferred-citation:
+  type: article
+  title: "Multi-Objective Optimisation of Building Envelopes: A Surrogate-Assisted Three-Tier Verification Framework"
+  authors:
+    - family-names: Emekci
+      given-names: Seyda
+    - family-names: Abbas
+      given-names: Ali
+    - family-names: Emekci
+      given-names: Hakan
+  journal: "Building and Environment"
+  year: 2026

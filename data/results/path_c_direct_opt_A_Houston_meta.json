@@ -1,0 +1,30 @@
+{
+  "case": "A_Houston",
+  "city": "Houston",
+  "algorithm": "NSGA-III (direct, Path-C objectives)",
+  "ref_dirs": 165,
+  "n_partitions": 8,
+  "pop_size": 165,
+  "n_generations": 24,
+  "seed": 42,
+  "workers": 5,
+  "n_evaluations_total": 3960,
+  "n_evaluations_successful": 3960,
+  "n_evaluations_failed": 0,
+  "n_eplus_fail": 0,
+  "n_radiance_fail": 0,
+  "n_feasible": 3795,
+  "n_front": 835,
+  "wall_clock_s": 11437.048535823822,
+  "mean_eval_s": 14.387960471649363,
+  "objective_order": [
+    "total_eui",
+    "utilization",
+    "neg_sda",
+    "cost"
+  ],
+  "model_notes": {
+    "energyplus_idf": "RefBldgSmallOfficeNew2004_Chicago.idf",
+    "radiance_geometry": "8x8x3 m perimeter zone with 4-orientation glazing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "case": "A_Houston",
+  "n_subset": 20,
+  "n_eplus_success": 20,
+  "n_radiance_success": 20,
+  "wall_clock_s": 167.8633828163147,
+  "thermal_path_a_vs_c_v2": {
+    "spearman": 0.8421052631578947,
+    "pearson": 0.8332741752215089
+  },
+  "structural_path_a_vs_c": {
+    "spearman": 1.0,
+    "pearson": 0.999891655070957
+  },
+  "daylight_path_a_vs_c_v2": {
+    "spearman": 0.5202659817144719,
+    "pearson": 0.4715824982089175
+  },
+  "model_notes": {
+    "energyplus_idf": "RefBldgSmallOfficeNew2004_Chicago.idf",
+    "floor_area_m2": 511.16,
+    "n_zones": 5,
+    "radiance_geometry": "8x8x3 m perimeter zone with 4-orientation glazing",
+    "radiance_n_sensors": 25
+  }
+}

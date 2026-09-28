@@ -1,0 +1,12 @@
+{
+  "case": "B_NYC",
+  "city": "NYC",
+  "front_size": 259,
+  "n_evaluated": 259,
+  "n_success": 259,
+  "n_eplus_fail": 0,
+  "n_radiance_fail": 0,
+  "wall_clock_s": 607.5732858181,
+  "mean_eval_s": 11.670608998265505,
+  "model": "Path-C v2 (DOE RefBldg Small Office + 4-orientation Radiance)"
+}

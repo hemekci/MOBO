@@ -1,0 +1,28 @@
+{
+  "A_Houston": {
+    "n": 258,
+    "set_internal_nd_pct": 16.3,
+    "unselected_nd_pct": 17.7,
+    "joint_front_share_pct": 67.0
+  },
+  "B_NYC": {
+    "n": 259,
+    "set_internal_nd_pct": 36.7,
+    "unselected_nd_pct": 17.8,
+    "joint_front_share_pct": 82.0
+  },
+  "C_Minneapolis": {
+    "n": 272,
+    "set_internal_nd_pct": 36.4,
+    "unselected_nd_pct": 17.3,
+    "joint_front_share_pct": 52.0
+  },
+  "set_size_curve_houston": {
+    "10": 68.3,
+    "20": 55.6,
+    "40": 41.9,
+    "80": 31.1,
+    "150": 21.9,
+    "258": 16.3
+  }
+}

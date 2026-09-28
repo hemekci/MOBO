@@ -1,0 +1,56 @@
+{
+  "A_Houston": {
+    "n_subset": 20,
+    "n_eplus_success": 20,
+    "n_radiance_success": 20,
+    "wall_clock_s": 81.56862616539001,
+    "thermal_path_a_vs_c": {
+      "spearman": 0.7022556390977444,
+      "pearson": 0.8103563623321502
+    },
+    "structural_path_a_vs_c": {
+      "spearman": 1.0,
+      "pearson": 0.999891655070957
+    },
+    "daylight_path_a_vs_c": {
+      "spearman": 0.8695545050229748,
+      "pearson": 0.786288209273645
+    }
+  },
+  "B_NYC": {
+    "n_subset": 20,
+    "n_eplus_success": 20,
+    "n_radiance_success": 20,
+    "wall_clock_s": 82.89728999137878,
+    "thermal_path_a_vs_c": {
+      "spearman": 0.6210526315789473,
+      "pearson": 0.7183218695106677
+    },
+    "structural_path_a_vs_c": {
+      "spearman": 1.0,
+      "pearson": 0.9999562069287447
+    },
+    "daylight_path_a_vs_c": {
+      "spearman": 0.7591705063816816,
+      "pearson": 0.7618059990649251
+    }
+  },
+  "C_Minneapolis": {
+    "n_subset": 20,
+    "n_eplus_success": 20,
+    "n_radiance_success": 20,
+    "wall_clock_s": 85.24892401695251,
+    "thermal_path_a_vs_c": {
+      "spearman": 0.7338345864661654,
+      "pearson": 0.8236037722154532
+    },
+    "structural_path_a_vs_c": {
+      "spearman": 0.9996239894584122,
+      "pearson": 0.9999626436854971
+    },
+    "daylight_path_a_vs_c": {
+      "spearman": 0.7965084348948578,
+      "pearson": 0.7760997693233959
+    }
+  }
+}

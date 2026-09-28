@@ -1,0 +1,13 @@
+objective,case,rmse_cv5,r_squared_cv5,mape_pct_cv5
+thermal,A_Houston,0.0607,0.967,7.68
+structural,A_Houston,0.0394,0.964,3.22
+daylight,A_Houston,1.3942,0.996,2.09
+cost,A_Houston,47.4172,0.934,4.13
+thermal,B_NYC,0.0605,0.966,6.36
+structural,B_NYC,0.0382,0.974,5.57
+daylight,B_NYC,1.2783,0.996,1.87
+cost,B_NYC,42.4147,0.946,3.66
+thermal,C_Minneapolis,0.0773,0.94,8.03
+structural,C_Minneapolis,0.0613,0.94,11.85
+daylight,C_Minneapolis,1.5849,0.992,2.52
+cost,C_Minneapolis,46.1918,0.937,4.4

@@ -1,0 +1,11 @@
+{
+  "framework_front_n": 42,
+  "independent_front_n": 835,
+  "hv_framework": 79188.76588021718,
+  "hv_independent": 92101.4553008405,
+  "hv_ratio": 0.8597992900498121,
+  "survival_merged": 10,
+  "survival_pct": 23.80952380952381,
+  "igd_to_independent": 0.2526254158709069,
+  "igd_reverse": 0.2577802025604364
+}

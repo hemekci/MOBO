@@ -1,0 +1,12 @@
+{
+  "case": "A_Houston",
+  "city": "Houston",
+  "front_size": 258,
+  "n_evaluated": 258,
+  "n_success": 258,
+  "n_eplus_fail": 0,
+  "n_radiance_fail": 0,
+  "wall_clock_s": 743.1639940738678,
+  "mean_eval_s": 14.30928067920744,
+  "model": "Path-C v2 (DOE RefBldg Small Office + 4-orientation Radiance)"
+}

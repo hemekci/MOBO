@@ -1,0 +1,122 @@
+{
+  "seeds": [
+    42,
+    7,
+    101,
+    2025,
+    314
+  ],
+  "wall_clock_s": 38.02710795402527,
+  "S1_seed_robustness": {
+    "A_Houston": {
+      "n_seeds": 5,
+      "gain_vs_nsga2_pct": {
+        "mean": 36.31801171183087,
+        "min": 31.128227089263373,
+        "max": 46.95614133037422,
+        "ci95_low": 32.15395299281606,
+        "ci95_high": 41.971517867478255
+      },
+      "gain_vs_nsga3_no_surrogate_pct": {
+        "mean": 26.711747184743455,
+        "min": 19.993512343217024,
+        "max": 32.18776862484643,
+        "ci95_low": 22.60225039440263,
+        "ci95_high": 30.82124397508428
+      }
+    },
+    "B_NYC": {
+      "n_seeds": 5,
+      "gain_vs_nsga2_pct": {
+        "mean": 36.673469878637306,
+        "min": 28.552202611216337,
+        "max": 42.11479373013709,
+        "ci95_low": 32.38482436632727,
+        "ci95_high": 40.18219544865014
+      },
+      "gain_vs_nsga3_no_surrogate_pct": {
+        "mean": 24.881241505959498,
+        "min": 17.565619428029187,
+        "max": 30.66556607544415,
+        "ci95_low": 20.317103985762298,
+        "ci95_high": 29.19420787381788
+      }
+    },
+    "C_Minneapolis": {
+      "n_seeds": 5,
+      "gain_vs_nsga2_pct": {
+        "mean": 38.38190273931945,
+        "min": 30.41972472540855,
+        "max": 45.42654830125221,
+        "ci95_low": 33.33595832567101,
+        "ci95_high": 43.22530418201192
+      },
+      "gain_vs_nsga3_no_surrogate_pct": {
+        "mean": 27.313823499710885,
+        "min": 19.84597365899552,
+        "max": 32.01008624245149,
+        "ci95_low": 23.083689410951752,
+        "ci95_high": 31.16005600257255
+      }
+    }
+  },
+  "S2_refpoint": {
+    "gain_vs_nsga2_pct": {
+      "min": 2.3411858605154157,
+      "max": 18.29614977768774
+    },
+    "gain_vs_nsga3_pct": {
+      "min": 0.06633049006246061,
+      "max": 2.828145568355822
+    },
+    "n_reference_points": 6,
+    "conclusion_sign_stable": true
+  },
+  "S3_sobol": {
+    "n_base_samples": 512,
+    "n_model_evals_per_case": 11264,
+    "max_interaction_share": 0.4717,
+    "largest_interactions": [
+      {
+        "objective": "structural",
+        "variable": "member_depth_m",
+        "interaction_share": 0.4717
+      },
+      {
+        "objective": "structural",
+        "variable": "framing_idx",
+        "interaction_share": 0.2348
+      },
+      {
+        "objective": "thermal",
+        "variable": "glazing_idx",
+        "interaction_share": 0.041
+      },
+      {
+        "objective": "cost",
+        "variable": "glazing_idx",
+        "interaction_share": 0.0397
+      },
+      {
+        "objective": "daylight",
+        "variable": "wwr_south",
+        "interaction_share": 0.0162
+      },
+      {
+        "objective": "thermal",
+        "variable": "wwr_east",
+        "interaction_share": 0.014900000000000002
+      },
+      {
+        "objective": "cost",
+        "variable": "wwr_east",
+        "interaction_share": 0.014900000000000002
+      },
+      {
+        "objective": "cost",
+        "variable": "wwr_north",
+        "interaction_share": 0.0129
+      }
+    ]
+  }
+}
