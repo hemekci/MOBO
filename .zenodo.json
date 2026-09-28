@@ -7,7 +7,7 @@
     {"name": "Abbas, Ali", "affiliation": "University of East London"},
     {"name": "Emekci, Hakan", "affiliation": "Hacettepe University"}
   ],
-  "license": "MIT",
+  "license": "mit",
   "access_right": "open",
   "keywords": [
     "multi-objective optimisation",
