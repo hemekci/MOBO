@@ -1,0 +1,21 @@
+{
+  "title": "MOBO-Envelope: code and data for \"Multi-Objective Optimisation of Building Envelopes: A Surrogate-Assisted Three-Tier Verification Framework\"",
+  "upload_type": "software",
+  "description": "Code, input data, results and figures for the article <i>Multi-Objective Optimisation of Building Envelopes: A Surrogate-Assisted Three-Tier Verification Framework</i> (Building and Environment, 2026). MOBO-Envelope optimises thermal, structural, daylight and cost objectives with a surrogate-assisted NSGA-III search (Path-A) and verifies the results with standards-grade Python simulators (Path-B) and EnergyPlus/Radiance (Path-C) for three climate-zone case studies (Houston, New York City, Minneapolis).",
+  "creators": [
+    {"name": "Emekci, Seyda", "affiliation": "Ankara Yildirim Beyazit University"},
+    {"name": "Abbas, Ali", "affiliation": "University of East London"},
+    {"name": "Emekci, Hakan", "affiliation": "Hacettepe University"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "multi-objective optimisation",
+    "building envelope",
+    "surrogate model",
+    "NSGA-III",
+    "EnergyPlus",
+    "Radiance",
+    "building performance simulation"
+  ]
+}
